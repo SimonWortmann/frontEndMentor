@@ -1,0 +1,91 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: rgb(4, 150, 204);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.topCircle {
+  position:absolute;
+  left: -255px;
+  top: -500px;
+  z-index: -1;
+}
+
+.bottomCircle {
+  position: absolute;
+  right: -255px;
+  bottom: -580px;
+  z-index: -2;
+}
+
+.card {
+  width:374px;
+  text-align: center;
+  margin: 200px auto 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+  height: 374px;
+}
+
+.cardPattern {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.victor {
+  position: relative;
+  top: -58px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 200px;
+}
+
+.name {
+  font-weight: 700;
+  color: black;
+}
+
+
+.age {
+  position: relative;
+  bottom: 60px;
+  color: grey;
+}
+
+.city {
+  color: grey;
+  font-size: 12px;
+  position: relative;
+  bottom: 65px;
+}
+
+hr {
+  position: relative;
+  bottom: 60px;
+}
+
+table {
+  position: relative;
+  bottom: 60px;
+  border-spacing: 50px 5px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.numbers {
+  font-weight: 700;
+  color: black;
+}
+
+.definintion {
+  color: grey;
+  font-size: 10px;
+}
