@@ -2,34 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <img class="topCircle" src="images\bg-pattern-top.svg" alt="">
+  <img class="bottomCircle" src="images/bg-pattern-bottom.svg" alt="">
+  <div class="card">
+    <img class="cardPattern" src="images\bg-pattern-card.svg" alt="">
+    <img class="victor" src="images\image-victor.jpg" alt="victor">
+    <p class="age"><span class="name">Victor Crest </span> 26</p>
+    <p class="city">London</p>
+    <hr>
+    <table>
+      <tr>
+        <td class="numbers">80K</td>
+        <td class="numbers">803K</td>
+        <td class="numbers">1.4K</td>
+      </tr>
+      <tr>
+        <td class="definintion">Followers</td>
+        <td class="definintion">Likes</td>
+        <td class="definintion">Photos</td>
+      </tr>
+    </table>
   </div>
+<br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Simon</a>.
+  </div>
+
+
 </body>
 </html>
